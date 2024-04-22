@@ -13,3 +13,52 @@
     font-size: 50px;
     color: white;
 }
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 8, 34);
+    margin-top: 20px;
+}
+
+.img {
+    width: 500px;
+    margin-top: 20px;
+    border: 10px solid;
+}
+
+.h2 {
+    /* text-align: center; */
+    color: rgb(32, 13, 49);
+    font-size: 30px;
+    margin: 0;
+}
+
+.button {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    width: fit-content;
+}
+
+.h3 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(33, 37, 36);
+    font-size: 15px;
+}
