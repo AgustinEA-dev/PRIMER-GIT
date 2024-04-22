@@ -6,9 +6,10 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background-color: blanchedalmond;
+    background-color: rgb(31, 123, 77);
 }
 
 .h1 {
     font-size: 50px;
+    color: white;
 }

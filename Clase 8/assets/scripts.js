@@ -66,3 +66,57 @@ console.log(animalesSlice)
 console.log(helados[0])
 
 console.log(mejorHelado)
+
+// Callbacks
+// const numeros = [1, 2, 3, 4, 5, 6, 7]
+
+// numeros.forEach(numero => {
+//     console.log(numero)
+//     console.log(`Hola soy el número ${numero}`)
+
+// });
+const colores = ['azul', 'rojo', 'verde', 'marrón', 'gris', 'anaranjado']
+const animalesNew = ['perro', 'gato', 'águila', 'serpiente', 'vaca', 'yacaré']
+
+
+for (let i = 0; i < animalesNew.length; i++) {
+
+    console.log(`${animalesNew[i].toUpperCase()} ${colores[i]}`)
+
+}
+
+const coloresUpperCase = colores.map((color) => {
+    return `${color.toUpperCase() + " LINDO".toLocaleLowerCase()}`
+})
+
+console.log(coloresUpperCase)
+console.log(colores)
+
+const coloresAnimales = animalesNew.map((animal) => {
+    return animal + " azul"
+})
+
+const animalFilter = animales.filter((animal) => {
+    return animal[2] === 'r'
+})
+
+console.log(animalFilter)
+
+console.log(coloresAnimales)
+
+const marcasBebidas = ['coca cola', 'sprite', 'vino toro', 'villa vicencio', 'tang', 'fanta']
+
+marcasBebidas.forEach(marca => {
+    console.log(marca)
+});
+
+const nuevasMarcas = marcasBebidas.map(marca => marca)
+
+nuevasMarcas.forEach(marca => {
+    console.log(marca.toUpperCase())
+
+});
+
+
+
+
