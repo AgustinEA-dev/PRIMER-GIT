@@ -64,14 +64,8 @@ form.addEventListener('submit', (e) => {
   </div>
       `
       localStorage.setItem("últimaBuscada", JSON.stringify(pizza));
+     
     }
-    // else {
-    //   container.innerHTML = `
-    //   <div>
-    //   <h3 class="error">No encontramos esa opción :(</h3>
-    //   </div>
-    //   `
-    // }
   });
 })
 
